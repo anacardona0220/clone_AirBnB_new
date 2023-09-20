@@ -1,9 +1,12 @@
 import logo from "../assets/logo.png";
+import Formulario from "./Formulario";
+import Header from "./Header";
 
 const Marcadeagua = () => {
   return (
     <div className="marcadeagua">
-      {/* <img src={logo} alt="logoAirBnB" /> */}
+   {/* <Header/> 
+   <Formulario />  */}
     </div>
   );
 };
