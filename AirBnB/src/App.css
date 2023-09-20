@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* start header componente */
+.header-1 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-1 h1{
+  font-size: 5rem;
+
+}
+.iconAirBnB {
+  /* background-color: antiquewhite; */
+  align-items: center;
+  font-size: 10rem;
+  color: #ff385c;
+  font-weight: 900;
+  flex-direction: column;
+
+}
+
+/* .header-1 .iconAirBnB:nth-child(1){
+  flex-basis: calc(50% - 1rem);
+  
+}
+
+.header-1 .iconAirBnB:nth-child(2){
+  flex-basis: calc(50% - 1rem);
+ 
+} */
+
+/* end header component */
+
+/* star marcadeagua component */
+.marcadeagua{
+  background-image: url('../src/assets/logo.png');
+  background-size: 60px 60px;
+  
+  opacity: 0.15;
+  background-position: center;
+  position: relative;
+  background: repeat - repeat-x;
+  position: relative; /* Asegura que la posición sea relativa */
+  width: 100%; /* Asegura que la marca de agua ocupe todo el ancho */
+  height: 100vh;
+}
+
+
+.encima{
+  position: absolute; /* Asegura que la posición sea absoluta */
+  /* top: 0; 
+  left: 0; */
+  z-index: 2; /* Coloca los componentes en una capa superior que la marca de agua */
+}
+
+/* start formulario component */
+
+.formulario-parrafo1{
+  font: bold;
+  text-align:left;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.colorcolombia{
+  color: #ff385c;
+  font-size: 3rem;
+}
+
+.container-form{
+  background-color: aqua;
+  border-radius: 2px;
+}
+
+.container-form-location{
+  display: block;
+}
+
+.container-form-input1{
+  margin-top: 2px;
+  placeholder: gray;
+  border: none;
+
+
+ 
+}
+  
+
+
+
+
