@@ -10,7 +10,7 @@ const Formulario = () => {
                 <span className="colorcolombia">Colombia</span>
             </h1>
             <div className="location">
-                <label className="container-form-location l">LOCATION</label>
+                <label >LOCATION</label>
                 <input
                     id="place"
                     type="text"
@@ -23,8 +23,8 @@ const Formulario = () => {
             <div className="check">
 
                 <div className="margintop">
-                    <label className="container-form-location">CHECK IN</label>
-                    <input
+                    <label >CHECK IN</label>
+                    <input className="input-date"
                         id="place"
                         type="date"
                         placeholder="Add Date"
@@ -32,8 +32,8 @@ const Formulario = () => {
                     />
                 </div>
                 <div className="margintop">
-                    <label className="container-form-location">CHECK OUT</label>
-                    <input
+                    <label >CHECK OUT</label>
+                    <input className="input-date"
                         id="place"
                         type="date"
                         placeholder="Add Date"
@@ -43,9 +43,9 @@ const Formulario = () => {
             </div>
             <div className="adultChil">
 
-                <div>
+                <div className="box-select">
                     <label htmlFor="place">ADULT</label>
-                    <select id="place" className="container-form-input1">
+                    <select id="place">
                         <optgroup>
 
                             <option value="1">0</option>
@@ -60,9 +60,9 @@ const Formulario = () => {
 
                     </select>
                 </div>
-                <div>
+                <div className="box-select">
                     <label htmlFor="Addchildren">CHILDREN</label>
-                    <select id="place" className="container-form-input1">
+                    <select id="place">
                         <optgroup>
 
                             <option value="1">0</option>
